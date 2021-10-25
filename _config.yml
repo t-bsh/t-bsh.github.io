@@ -1,0 +1,30 @@
+title: My stuff
+description:
+author: Tobashi
+about: I like long walks on the havn.
+
+enableTags: true
+tagarray: []
+
+collections:
+
+urls:
+    - text: About Me
+      url: /about/
+
+url: "https://t-bsh.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
